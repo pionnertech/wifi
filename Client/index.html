@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>$gatewayname | Connect</title>
+<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<!-- styles -->
+<link href="https://cloudtrax-static.s3.amazonaws.com/splash-templates/stylesheet.css" rel="stylesheet" />
+<link href="https://cloudtrax-static.s3.amazonaws.com/splash-templates/responsive.css" rel="stylesheet" />
+<style type="text/css">
+/** This template is responsive, which means it scales down to mobile phones using a variation in the stylesheets above. However, you can still add any custom styles or style overrides here. To edit the content of your page, the logo and the header image, scroll down. Enjoy! **/
+</style>
+<script language="javascript" type="text/javascript">
+function toggle_visibility(id) {
+var e = document.getElementById(id);
+if(e.style.display == 'block')
+e.style.display = 'none';
+else
+e.style.display = 'block';
+}
+</script></head>
+<!-- Change the background color and add an image here -->
+<body style="background-image: url(&quot;https://my-cloudtrax-files.s3.amazonaws.com/ct2/117447/splash-tmp/images/backgroundsplash-brew.jpg&quot;); background-repeat: repeat-x; background-color: #3e1d0e;">
+<div class="container">
+<!-- Logo -->
+<div class="page-header"><br />
+</div>
+<!-- Header Image * ID "rounded" automatically adds rounded corners -->
+<div id="rounded"> </div>
+<!-- Main Content -->
+<!-- Left Column -->
+<div class="row">
+<div class="span4">
+<h1><br />
+</h1>
+</div>
+<!-- Right Column -->
+<div class="span8">
+<div class="row">
+<div class="box">
+<h3>Free Access:</h3>
+<!-- This is the "Enter" button for "Open" networks. -->
+<form method="get" action="$authaction">
+<input name="tok" value="$tok" type="hidden" /> <input name="redir" value="$redir" type="hidden" /><button class="button" type="submit">Continue</button>
+</form>
+</div>
+<br />
+</div>
+</div>
+<!-- /.span -->
+</div>
+<div style="clear: both"></div>
+<!-- Footer
+==================================================
+Customize this area however you wish -->
+<div>
+<p class="horizontalrule"><br />
+</p>
+</div>
+<!-- /container -->
+</div>
+<!-- /container -->
+<div></div>
+</body>
+</html>
